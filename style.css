@@ -1,13 +1,16 @@
+/*Color pallete: background #FFFAB3, servings #A2E5D2, ingredients/steps #63B397, #9DAB34, text #2C2321
+https://www.colourlovers.com/palette/1203813/Earth_Angel*/
 * {
-    background-color: rgb(199, 199, 171);
+    background-color: #FFFAB3;
+    font-family: 'Zen Antique Soft', 'Nunito Sans', sans-serif;
+    color: #2C2321;
 }
 
 h1 {
-    background-color: rgb(189, 158, 59);
-    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    background-color: #63B397;
     font-size: 28px;
     text-align: center;
-    color: rgba(17, 66, 8, 0.911);
+    color: #2C2321;
     width: 100vw;
     padding: 3px;
 }
@@ -21,5 +24,39 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border-image: 10px groove #2C2321;
     border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.servings h3 {
+    background-color: #A2E5D2;
+    color: #2C2321;
+    padding: 2px;
+    border: 3px groove #2C2321;
+    border-radius: 5px;
+    text-align: center;
+    width: 10em;    
+    margin: auto;
+    
+}
+
+.ingredients {
+    border: 3px solid #2C2321;
+    border-radius: 5px;
+}
+
+.steps{
+    border: 3px solid #2C2321;
+}
+
+.homebutton {
+    background-color: rgb(146, 146, 146);
+    color: #2C2321;
+    border: 2px groove 1px 0 #2C2321;
+    border-radius: 3px;
+    padding: 5px;
 }
